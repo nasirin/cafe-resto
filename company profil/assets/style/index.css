@@ -1,0 +1,88 @@
+.header {
+  background-image: url("/assets/img/header_j@2x.png");
+  width: auto;
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.header .navbar-brand img {
+  width: 80px;
+  height: 80px;
+}
+
+.header .navbar-nav .nav-item {
+  font-family: "Roboto", sans-serif;
+  color: #452b1c;
+}
+
+.header .navbar-nav .active {
+  font-weight: bold;
+}
+
+.header img {
+  width: 250px;
+  height: 250px;
+}
+
+.header .medsos {
+  padding-right: 100px;
+  margin-left: -100px;
+}
+
+.header .medsos a .fa {
+  color: #452b1c;
+}
+
+.header .medsos a :hover {
+  color: #a06340;
+}
+
+.section1 .product-img img {
+  width: 398px;
+  height: 267px;
+  -webkit-box-shadow: 5px 10px 8px 10px #c2bfbd;
+          box-shadow: 5px 10px 8px 10px #c2bfbd;
+  border-radius: 10px 100px 10px 100px;
+}
+
+.section1 .deskripsi-product img {
+  width: 50px;
+  height: 50px;
+}
+
+.section1 .deskripsi-product h3 {
+  font-family: "Merienda One", cursive;
+}
+
+.section1 .tempat-product img {
+  width: 300px;
+  height: 200px;
+  -webkit-box-shadow: 5px 10px 8px 10px #c2bfbd;
+          box-shadow: 5px 10px 8px 10px #c2bfbd;
+  border-radius: 10px 100px 10px 100px;
+}
+
+.favorit {
+  margin-top: 100px;
+}
+
+.favorit .title-section {
+  text-align: center;
+}
+
+.favorit .title-section h2 {
+  font-family: "Galada", cursive;
+  font-size: 100px;
+}
+
+.favorit .title-section p {
+  font-family: "Playfair Display", serif;
+}
+
+.favorit .img-favorit img {
+  width: 100px;
+  height: 80px;
+  border-radius: 5px 20px 5px 20px;
+}
+/*# sourceMappingURL=index.css.map */

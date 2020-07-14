@@ -1,0 +1,97 @@
+// HEADER
+.header {
+    background-image: url("/assets/img/header_j@2x.png");
+    // background-color:black;
+    width: auto;
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    .navbar-brand {
+        img {
+            width: 80px;
+            height: 80px;
+        } 
+    }
+
+    .navbar-nav {
+        .nav-item {
+            font-family: "Roboto", sans-serif;
+            color: #452b1c;
+        }
+        .active {
+            font-weight: bold;
+        }
+    }
+
+    img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .medsos {
+        padding-right: 100px;
+        margin-left: -100px;
+        a {
+            .fa {
+                color: #452b1c;
+            }
+            :hover {
+                color: #a06340;
+            }
+        }
+    }
+}
+
+// SECTION 1
+.section1 {
+    .product-img {
+        img {
+            width: 398px;
+            height: 267px;
+            box-shadow: 5px 10px 8px 10px #c2bfbd;
+            border-radius: 10px 100px 10px 100px;
+        }
+    }
+
+    .deskripsi-product {
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        h3 {
+            font-family: "Merienda One", cursive;
+        }
+    }
+
+    .tempat-product {
+        img {            
+            width: 300px;
+            height: 200px;
+            box-shadow: 5px 10px 8px 10px #c2bfbd;
+            border-radius: 10px 100px 10px 100px;
+        }
+    }
+}
+
+// SECTION FAVORIT
+.favorit {
+    margin-top: 100px;
+    .title-section {
+        text-align: center;
+        h2 {
+            font-family: "Galada", cursive;
+            font-size: 100px;
+        }
+        p {
+            font-family: "Playfair Display", serif;
+        }
+    }
+    .img-favorit{
+        img{
+            width: 100px;
+            height: 80px;
+            border-radius: 5px 20px 5px 20px;
+        }
+    }
+}
